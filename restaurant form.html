@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>book your table</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .bookh {
+            color: white;
+            margin-left: 10px;
+        }
+
+        .bookh2 {
+            color: orange;
+            margin-left: 10px;
+            font-size: 60px;
+        }
+
+        .bookhr {
+            width: 150px;
+            position: absolute;
+            margin-left: 230px;
+            margin-top: -18px;
+        }
+
+        .divbook {
+            text-align: justify;
+            padding-top: 10px;
+            padding-left: 20px
+        }
+
+        .bookinput1 {
+            height: 30px;
+            width: 500px;
+            background-color: black;
+            color: orange;
+            border: 1px solid orangeglow;
+            text-align: justify;
+            border-radius: 10px;
+            font-size: 10px;
+        }
+
+        .bookinput4 {
+            height: 100px;
+            width: 500px;
+            background-color: black;
+            color: orange;
+            border: 1px solid orangeglow;
+            border-radius: 10px;
+            cols: 40;
+            rows: 5;
+        }
+
+        .booksubmit {
+            height: 40px;
+            width: 150px;
+            background-color: orange;
+            color: white;
+            border: 1px solid orangeglow;
+            text-align: center;
+            border-radius: 50px;
+            margin-left: 180px;
+            margin-bottom: 5px;
+        }
+
+        .bookinput1:hover {
+            border-color: orange;
+        }
+
+        .booksubmit:hover {
+            color: orange;
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="bookh">RESERVATION
+    </h1>
+    <h1 class="bookh2">Book a Table</h1>
+    <form action="confirm.html">
+        <div class="divbook"><input class="bookinput1" type="text" placeholder="Your Name" required></div><br>
+        <div class="divbook"><input class="bookinput1" type="email" placeholder="Your Email" required></div><br>
+        <div class="divbook"><input class="bookinput1" type="number" placeholder="Your Phone" required></div><br>
+        <div class="divbook"><input class="bookinput1" type="date" placeholder="Date" required></div><br>
+        <div class="divbook"><input class="bookinput1" type="time" placeholder="Time" required></div><br>
+        <div class="divbook"><input class="bookinput1" type="number" placeholder="# of People" required></div><br>
+        <div class="divbook"><textarea class="bookinput4" placeholder="message"></textarea></div><br>
+        <div class="divbook"><input class="booksubmit" type="submit" value="Book a Table"></div>
+    </form>
+
+
+</body>
+
+</html>
